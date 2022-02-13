@@ -436,28 +436,6 @@ html {
   height: 60px;
 }
 
-.logo {
-  display: none;
-}
-
-.logo__image {
-  width: 48px;
-  height: 48px;
-  margin-right: 13px;
-}
-
-.logo__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.logo__name {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
-}
-
 .action-button {
   background-color: #3040c4;
   color: #fff;
