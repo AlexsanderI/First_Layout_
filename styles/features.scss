@@ -1,98 +1,98 @@
-.features-mobile {}
+@import "common.scss";
 
 .features {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
-@media screen and (max-width: 400px) {
-    .features {
-        display: none;
-    }
+@media screen and (max-width: $lg) {
+  .features {
+    display: none;
+  }
 }
 
 .features__content {
-    width: 1140px;
-    margin: auto;
-    display: flex;
+  width: 1140px;
+  margin: auto;
+  display: flex;
 }
 
 .features__column {
-    width: 459px;
+  width: 459px;
 }
 
 .features__subtitel {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 34px;
-    color: #009b4d;
-    margin-top: 24px;
-    margin-bottom: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #009b4d;
+  margin-top: 24px;
+  margin-bottom: 0;
 }
 
 .features__title {
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #2b292d;
-    margin-top: 24px;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #2b292d;
+  margin-top: 24px;
 }
 
 .features__descriptions {
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-size: 24px;
-    line-height: 34px;
-    /* color: #2b292d; */
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 34px;
+  /* color: #2b292d; */
 }
 
 .features__advanteg-header {
-    margin-top: 42px;
-    line-height: 42px;
-    display: flex;
+  margin-top: 42px;
+  line-height: 42px;
+  display: flex;
 }
 
 .features__advanteg-titel {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    color: #3142c6;
-    margin: 0;
-    margin-left: 15px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3142c6;
+  margin: 0;
+  margin-left: 15px;
 }
 
 .features__advanteg-description {
-    font-size: 18px;
-    line-height: 26px;
-    margin-top: 8px;
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    border-bottom: 3px solid #3142c6;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #3142c6;
 }
 
 .features__advanteg-item {
-    border-bottom: 1px solid #2b292d26;
-    margin-top: 21px;
-    padding-bottom: 22px;
-    display: flex;
+  border-bottom: 1px solid #2b292d26;
+  margin-top: 21px;
+  padding-bottom: 22px;
+  display: flex;
 }
 
 .features__advanteg-item-text {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    margin-left: 15px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-left: 15px;
 }
 
 .features__left-declaretion {
-    position: absolute;
-    height: 166px;
-    top: 258px;
-    /* width: 167px; */
+  position: absolute;
+  height: 166px;
+  top: 258px;
+  /* width: 167px; */
 }
 
 .features__banner {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }

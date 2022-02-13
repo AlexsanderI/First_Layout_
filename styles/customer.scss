@@ -1,3 +1,5 @@
+@import "common.scss";
+
 .customer {
   display: flex;
   flex-direction: column;
@@ -26,7 +28,7 @@
   max-width: 80%;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: $sm) {
   .customer {
     width: 1140px;
     margin: auto;

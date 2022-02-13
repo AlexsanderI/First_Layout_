@@ -1,3 +1,5 @@
+@import "common.scss";
+
 .footer {
   margin-top: auto;
   display: flex;
@@ -29,7 +31,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .logo__deescription {
     display: none;
   }
@@ -44,7 +46,7 @@
   justify-content: left;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .download {
     justify-content: center;
   }
@@ -58,7 +60,7 @@
   margin-bottom: 0;
   margin-left: 10px;
 }
-@media screen and (min-width: 321px) {
+@media screen and (min-width: $sm) {
   .additional-navigation {
     margin-left: auto;
     display: flex;
@@ -67,7 +69,7 @@
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .additional-navigation {
     margin-left: 0;
     flex-direction: column;
@@ -76,24 +78,24 @@
     display: none;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .additional-navigation_column {
     margin-right: 29px;
     margin-top: 0;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .additional-navigation_column {
     margin-top: 30px;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .nav-links {
     width: 265px;
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .nav-links {
     margin-top: 30px;
   }
@@ -135,12 +137,12 @@
   margin-top: 40px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .footer__line {
     margin: 0;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .footer-links {
     height: 100%;
     margin-left: 15px;
@@ -149,7 +151,7 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .footer-links {
     flex-direction: row;
     width: 1140px;
@@ -162,7 +164,7 @@
   font-size: 14px;
   margin-top: 30px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .terms {
     margin-top: 0;
     line-height: 50px;
@@ -183,7 +185,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .footer-navigation {
     width: 1140px;
     margin: 0 auto;
@@ -198,7 +200,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: $lg) {
   .social-links {
     // margin-left: auto;
     margin-left: 0;
@@ -206,7 +208,7 @@
     margin-bottom: 23px;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .social-links {
     margin-left: auto;
     margin-bottom: 0;

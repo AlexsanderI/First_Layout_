@@ -1,3 +1,5 @@
+@import "common.scss";
+
 .tips {
   margin-top: 8px;
 }
@@ -53,7 +55,7 @@
   max-width: 100%;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: $sm) {
   .tips {
     display: none;
   }

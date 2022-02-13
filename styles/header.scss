@@ -1,3 +1,5 @@
+@import "common.scss";
+
 .header {
   height: 62px;
   width: 100%;
@@ -35,7 +37,7 @@
   display: none;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: $sm) {
   .top-section {
     background-color: #f3c6bd;
     padding-top: 39px;

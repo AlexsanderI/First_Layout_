@@ -1,3 +1,5 @@
+@import "common.scss";
+
 .about {
   padding: 46px 15px;
   width: 100%;
@@ -21,7 +23,7 @@
   margin-top: 6px;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: $sm) {
   .about {
     display: flex;
     justify-content: space-between;
