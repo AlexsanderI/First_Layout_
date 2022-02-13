@@ -1,0 +1,36 @@
+.about {
+  padding: 46px 15px;
+  width: 100%;
+  background-color: #f4f5f7;
+}
+
+.artical:last-child {
+  margin-top: 20px;
+}
+
+.artical_titel {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.artical_text {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 321px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px 130px;
+  }
+  .artical {
+    width: 555px;
+  }
+  .artical:last-child {
+    margin-top: 0;
+  }
+}
