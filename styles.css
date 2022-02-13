@@ -59,7 +59,7 @@ html {
   display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 321px) {
   .top-section {
     background-color: #f3c6bd;
     padding-top: 39px;
@@ -214,12 +214,14 @@ html {
   margin-left: 10px;
 }
 
-.additional-navigation {
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
+@media screen and (min-width: 321px) {
+  .additional-navigation {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+  }
 }
-
 @media screen and (max-width: 321px) {
   .additional-navigation {
     margin-left: 0;
@@ -310,12 +312,13 @@ html {
   }
 }
 .terms {
-  margin-top: 30px;
   font-size: 14px;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 320px) {
   .terms {
+    margin-top: 0;
     line-height: 50px;
     font-size: 14px;
   }
@@ -612,7 +615,7 @@ html {
   max-width: 80%;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 321px) {
   .customer {
     width: 1140px;
     margin: auto;

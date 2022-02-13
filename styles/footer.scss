@@ -58,11 +58,13 @@
   margin-bottom: 0;
   margin-left: 10px;
 }
-
-.additional-navigation {
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
+@media screen and (min-width: 321px) {
+  .additional-navigation {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -157,11 +159,12 @@
   }
 }
 .terms {
-  margin-top: 30px;
   font-size: 14px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 320px) {
   .terms {
+    margin-top: 0;
     line-height: 50px;
     font-size: 14px;
   }
