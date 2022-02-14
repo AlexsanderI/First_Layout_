@@ -11,13 +11,13 @@ html {
 }
 
 .page {
-  width: 100%;
+  // width: 100%;
   overflow: hidden;
 }
 
 @media screen and (min-width: $sm) {
   .page {
-    width: 100%;
+    width: 1450px;
     margin: auto;
     min-height: 100vh;
     display: flex;
