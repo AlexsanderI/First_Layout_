@@ -31,14 +31,14 @@
 
 @media screen and (min-width: $sm) {
   .customer {
-    width: 1140px;
-    margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1140px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
   }
   .customer__row {
     flex: 1;

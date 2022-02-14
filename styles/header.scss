@@ -1,11 +1,11 @@
 @import "common.scss";
 
 .header {
+  display: flex;
+  align-items: center;
   height: 62px;
   width: 100%;
   background-color: #fff;
-  display: flex;
-  align-items: center;
   padding-left: 15px;
 }
 
@@ -42,10 +42,10 @@
     display: none;
   }
   .header {
+    display: flex;
     height: 62px;
     width: 1140px;
     margin: auto;
-    display: flex;
     background: transparent;
   }
   .navigation {

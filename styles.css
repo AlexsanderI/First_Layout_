@@ -64,11 +64,11 @@ html {
   }
 }
 .header {
+  display: flex;
+  align-items: center;
   height: 62px;
   width: 100%;
   background-color: #fff;
-  display: flex;
-  align-items: center;
   padding-left: 15px;
 }
 
@@ -107,10 +107,10 @@ html {
   }
 
   .header {
+    display: flex;
     height: 62px;
     width: 1140px;
     margin: auto;
-    display: flex;
     background: transparent;
   }
 
@@ -261,8 +261,8 @@ html {
   }
 
   .additional-navigation {
-    margin-left: 15px;
     flex-direction: column;
+    margin-left: 15px;
   }
 
   .footer .logo {
@@ -278,10 +278,10 @@ html {
   }
 
   .footer-links {
-    height: 100%;
-    margin-left: 15px;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin-left: 15px;
   }
 
   .social-links {
@@ -291,8 +291,8 @@ html {
   }
 }
 .download {
-  margin: 31px 30px 0 0;
   display: flex;
+  margin: 31px 30px 0 0;
 }
 
 .download__app {
@@ -306,9 +306,9 @@ html {
 
 @media screen and (min-width: 1401px) {
   .additional-navigation {
-    margin-left: auto;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
     margin-top: 60px;
   }
 
@@ -327,9 +327,9 @@ html {
 
   .footer-links {
     flex-direction: row;
-    margin: 0;
-    align-items: center;
     display: flex;
+    align-items: center;
+    margin: 0;
     border-top: 1px solid #2b292d26;
     padding: 0 135px 0 135px;
     width: 100%;
@@ -342,11 +342,11 @@ html {
   }
 
   .footer-navigation {
+    display: flex;
+    flex-direction: row;
     width: 1140px;
     margin: 0 auto;
     height: 338px;
-    display: flex;
-    flex-direction: row;
   }
 
   .logo-vertical {
@@ -408,8 +408,8 @@ html {
 }
 
 .footer__line {
-  width: 1400px;
   display: flex;
+  width: 1400px;
   opacity: 0.1;
   margin: 0;
   padding: 40px 15px 0 15px;
@@ -560,11 +560,11 @@ html {
   }
 
   .headlime {
+    display: flex;
     position: relative;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
-    display: flex;
     padding-bottom: 77px;
   }
 
@@ -597,8 +597,8 @@ html {
   }
 
   .headlime__action {
-    margin-top: 58px;
     display: flex;
+    margin-top: 58px;
   }
 
   .headlime__banner {
@@ -742,14 +742,14 @@ html {
 
 @media screen and (min-width: 1401px) {
   .customer {
-    width: 1140px;
-    margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 1140px;
+    margin: auto;
     padding-top: 30px;
     padding-bottom: 106px;
-    flex-direction: row;
   }
 
   .customer__row {
@@ -870,7 +870,6 @@ html {
   position: absolute;
   height: 166px;
   top: 295px;
-  /* width: 167px; */
 }
 
 .features__banner {
@@ -1060,13 +1059,13 @@ html {
 }
 
 .footer__topline {
-  margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #e3e3e3;
   padding-bottom: 40px;
   margin-top: 44px;
+  margin: 0px;
 }
 
 .action-button {

@@ -81,11 +81,11 @@
     margin-top: 0;
   }
   .headlime {
+    display: flex;
     position: relative;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
-    display: flex;
     padding-bottom: 77px;
   }
   .headlime__content {
@@ -114,8 +114,8 @@
     margin-left: 0;
   }
   .headlime__action {
-    margin-top: 58px;
     display: flex;
+    margin-top: 58px;
   }
 
   .headlime__banner {

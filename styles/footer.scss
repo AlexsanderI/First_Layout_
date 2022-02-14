@@ -1,5 +1,4 @@
 @import "common.scss";
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -42,9 +41,8 @@
     justify-content: center;
   }
   .additional-navigation {
-    margin-left: 15px;
-
     flex-direction: column;
+    margin-left: 15px;
   }
   .footer .logo {
     display: none;
@@ -56,10 +54,10 @@
     margin-top: 30px;
   }
   .footer-links {
-    height: 100%;
-    margin-left: 15px;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin-left: 15px;
   }
   .social-links {
     margin-left: 0;
@@ -69,8 +67,8 @@
 }
 
 .download {
-  margin: 31px 30px 0 0;
   display: flex;
+  margin: 31px 30px 0 0;
 }
 
 .download__app {
@@ -83,9 +81,9 @@
 }
 @media screen and (min-width: $sm) {
   .additional-navigation {
-    margin-left: auto;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
     margin-top: 60px;
   }
   .additional-navigation_column {
@@ -100,10 +98,9 @@
   }
   .footer-links {
     flex-direction: row;
-
-    margin: 0;
-    align-items: center;
     display: flex;
+    align-items: center;
+    margin: 0;
     border-top: 1px solid #2b292d26;
     padding: 0 135px 0 135px;
     width: 100%;
@@ -114,11 +111,11 @@
     font-size: 14px;
   }
   .footer-navigation {
+    display: flex;
+    flex-direction: row;
     width: 1140px;
     margin: 0 auto;
     height: 338px;
-    display: flex;
-    flex-direction: row;
   }
   .logo-vertical {
     display: none;
@@ -174,9 +171,8 @@
 }
 
 .footer__line {
-  width: 1400px;
   display: flex;
-
+  width: 1400px;
   opacity: 0.1;
   margin: 0;
   padding: 40px 15px 0 15px;
