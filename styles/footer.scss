@@ -1,10 +1,10 @@
 @import "common.scss";
 
 .footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
   height: auto;
+  margin-top: auto;
 }
 
 .about-company {
@@ -14,19 +14,14 @@
 .footer_description {
   display: none;
   line-height: 26px;
-  font-size: 18px;
+
   width: 360px;
   margin-top: 26px;
+  font-size: 18px;
   color: rgba(43, 41, 45, 0.6);
 }
 
-/* .footer-navigation {
-    width: 1140px;
-    margin: 0 auto;
-} */
-
 .footer-navigation {
-  // margin: 0 15px 0 15px;
   display: flex;
   flex-direction: column;
 }
@@ -152,6 +147,11 @@
     text-align: center;
     color: rgba(43, 41, 45, 0.6);
   }
+  .terms {
+    font-size: 14px;
+    margin-top: 13px;
+    margin-bottom: auto;
+  }
 }
 
 .nav-links__title {
@@ -180,13 +180,6 @@
   opacity: 0.1;
   margin: 0;
   padding: 40px 15px 0 15px;
-}
-@media screen and (max-width: 1401px) {
-  .terms {
-    font-size: 14px;
-    margin-top: 13px;
-    margin-bottom: auto;
-  }
 }
 
 .terms__items {
