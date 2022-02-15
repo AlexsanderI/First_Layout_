@@ -1108,6 +1108,11 @@ html {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 34px;
+    height: 72px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2b292d;
   }
 
   .audience__button {
@@ -1117,7 +1122,7 @@ html {
   }
 
   .audience__cards {
-    margin-top: 111px;
+    margin-top: 71px;
     justify-content: center;
   }
 
@@ -1142,7 +1147,7 @@ html {
 }
 
 .audience__title {
-  max-width: 555px;
+  font-weight: 700;
   margin: auto;
   margin-top: 24px;
   font-size: 56px;
@@ -1150,18 +1155,18 @@ html {
   letter-spacing: -0.5px;
 }
 
-.audience__text {
-  font-size: 24px;
-  line-height: 34px;
-  margin-top: 18px;
-  margin-bottom: 10px;
-}
-
 @media screen and (max-width: 1401px) {
   .audience__button_learn {
     color: #2b292d;
     margin-bottom: 40px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .audience__text {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 18px;
+    margin-bottom: 10px;
   }
 }
 .audience__cards {
