@@ -1137,7 +1137,7 @@ html {
     line-height: 40px;
     letter-spacing: -0.36px;
     margin: 0;
-    margin-top: 17px;
+    margin-top: 24px;
   }
 }
 .audience__section-title {
@@ -1146,16 +1146,17 @@ html {
   line-height: 34px;
 }
 
-.audience__title {
-  font-weight: 700;
-  margin: auto;
-  margin-top: 24px;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-}
-
 @media screen and (max-width: 1401px) {
+  .audience__title {
+    font-weight: 700;
+    margin: auto;
+    margin-top: 17px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+  }
+
   .audience__button_learn {
     color: #2b292d;
     margin-bottom: 40px;
