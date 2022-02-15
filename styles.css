@@ -785,14 +785,14 @@ html {
     display: none;
   }
 }
-.features__column {
-  width: 459px;
-}
-
 .features__content {
   width: 1140px;
   margin: auto;
   display: flex;
+}
+
+.features__column {
+  width: 459px;
 }
 
 .features__subtitel {
