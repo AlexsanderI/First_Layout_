@@ -72,7 +72,7 @@
 }
 
 .download__app {
-  margin-top: 0;
+  margin: 0 0 0 1px;
 }
 
 .download__google {
@@ -83,7 +83,7 @@
   .additional-navigation {
     display: flex;
     flex-direction: row;
-    margin-left: auto;
+    margin-left: 126px;
     margin-top: 60px;
   }
   .additional-navigation_column {
@@ -102,19 +102,15 @@
     align-items: center;
     margin: 0;
     border-top: 1px solid #2b292d26;
-    padding: 0 135px 0 135px;
+    padding: 0 132px 0 130px;
     width: 100%;
   }
-  .terms {
-    margin-top: 0;
-    line-height: 50px;
-    font-size: 14px;
-  }
+
   .footer-navigation {
     display: flex;
     flex-direction: row;
     width: 1140px;
-    margin: 0 auto;
+    margin-left: 129px;
     height: 338px;
   }
   .logo-vertical {
@@ -124,9 +120,7 @@
     display: block;
   }
   .social-links {
-    margin-left: auto;
-    margin-bottom: 17px;
-    margin-top: 13px;
+    margin: 17px 0 17px auto;
   }
   .logo__image {
     width: 60px;
@@ -148,6 +142,7 @@
     font-size: 14px;
     margin-top: 13px;
     margin-bottom: auto;
+    line-height: 22px;
   }
 }
 
@@ -216,4 +211,5 @@
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 1px;
 }

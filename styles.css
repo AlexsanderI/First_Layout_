@@ -296,7 +296,7 @@ html {
 }
 
 .download__app {
-  margin-top: 0;
+  margin: 0 0 0 1px;
 }
 
 .download__google {
@@ -308,7 +308,7 @@ html {
   .additional-navigation {
     display: flex;
     flex-direction: row;
-    margin-left: auto;
+    margin-left: 126px;
     margin-top: 60px;
   }
 
@@ -331,21 +331,15 @@ html {
     align-items: center;
     margin: 0;
     border-top: 1px solid #2b292d26;
-    padding: 0 135px 0 135px;
+    padding: 0 132px 0 130px;
     width: 100%;
-  }
-
-  .terms {
-    margin-top: 0;
-    line-height: 50px;
-    font-size: 14px;
   }
 
   .footer-navigation {
     display: flex;
     flex-direction: row;
     width: 1140px;
-    margin: 0 auto;
+    margin-left: 129px;
     height: 338px;
   }
 
@@ -358,9 +352,7 @@ html {
   }
 
   .social-links {
-    margin-left: auto;
-    margin-bottom: 17px;
-    margin-top: 13px;
+    margin: 17px 0 17px auto;
   }
 
   .logo__image {
@@ -386,6 +378,7 @@ html {
     font-size: 14px;
     margin-top: 13px;
     margin-bottom: auto;
+    line-height: 22px;
   }
 }
 .nav-links__title {
@@ -454,6 +447,7 @@ html {
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 1px;
 }
 
 .action-button {
@@ -1037,6 +1031,7 @@ html {
 @media screen and (min-width: 1400px) {
   .order__input {
     margin-top: 0;
+    width: 385px;
   }
 }
 .order__button {
