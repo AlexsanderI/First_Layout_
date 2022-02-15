@@ -975,6 +975,10 @@ html {
     padding: 73px 0 72px;
     max-width: 1400px;
   }
+
+  .standart-button_start {
+    margin-left: 10px;
+  }
 }
 .order__img {
   min-width: 200px;
@@ -1128,7 +1132,7 @@ html {
   }
 
   .audience__cards {
-    margin-top: 71px;
+    margin-top: 111px;
     justify-content: center;
   }
 
