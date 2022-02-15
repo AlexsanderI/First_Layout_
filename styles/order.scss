@@ -83,7 +83,7 @@
   margin-top: 10px;
   font-size: 14px;
   line-height: 22px;
-  color: #2b292d;
+  color: rgba(43, 41, 45, 0.6);
 }
 .order__bottom-text_link {
   color: #3141c5;
@@ -98,4 +98,9 @@
   padding-bottom: 40px;
   margin-top: 44px;
   margin: 0px;
+}
+.order__input::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 13px;
+  color: #2b292d;
 }
