@@ -9,6 +9,10 @@
   padding-left: 15px;
 }
 
+.navigation {
+  display: none;
+}
+
 .header__button {
   display: none;
 }
@@ -65,6 +69,31 @@
     margin-right: 15px;
   }
 }
+
+.navigation-list__item {
+  color: #2b292d;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navigation-list__item_selected {
+  font-weight: 700;
+}
+
+.navigation-list__item:last-child {
+  margin-right: 0;
+}
+
+.navigation-list__arrow {
+  width: 8px;
+  height: 5px;
+  display: inline-block;
+  margin-left: 11px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -90,33 +119,6 @@
   font-size: 20px;
   line-height: 25px;
   font-weight: 700;
-}
-
-.navigation {
-  display: none;
-}
-.navigation-list__item {
-  color: #2b292d;
-  text-decoration: none;
-  line-height: 25px;
-  font-size: 18px;
-  margin-right: 50px;
-}
-
-.navigation-list__item_selected {
-  font-weight: 700;
-}
-
-.navigation-list__item:last-child {
-  margin-right: 0;
-}
-
-.navigation-list__arrow {
-  width: 8px;
-  height: 5px;
-  display: inline-block;
-  margin-left: 11px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
 }
 
 .top-section {

@@ -19,12 +19,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.customer__iten:last-child {
+  border-right: none;
+}
+
 .customer_logo {
   filter: brightness(0);
   max-width: 80%;
-}
-.customer__iten:last-child {
-  border-right: none;
 }
 
 @media screen and (min-width: $sm) {
