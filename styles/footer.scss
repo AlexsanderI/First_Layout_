@@ -26,6 +26,13 @@
 }
 
 @media screen and (max-width: $lg) {
+  .footer {
+    height: 868px;
+    min-width: 320;
+  }
+  .footer__hide {
+    display: none;
+  }
   .logo-vertical {
     display: flex;
     flex-direction: column;

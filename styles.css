@@ -242,6 +242,15 @@ html {
 }
 
 @media screen and (max-width: 1400px) {
+  .footer {
+    height: 868px;
+    min-width: 320;
+  }
+
+  .footer__hide {
+    display: none;
+  }
+
   .logo-vertical {
     display: flex;
     flex-direction: column;
