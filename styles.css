@@ -35,7 +35,7 @@ html {
 
 @media screen and (min-width: 1401px) {
   .page {
-    width: 1450px;
+    width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
@@ -908,7 +908,7 @@ html {
 
 @media screen and (min-width: 1401px) {
   .page {
-    width: 1450px;
+    width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
