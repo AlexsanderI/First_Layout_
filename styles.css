@@ -167,7 +167,7 @@ html {
   align-items: center;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .header-logo__image {
     width: 48px;
     height: 48px;
@@ -241,7 +241,7 @@ html {
   flex-direction: column;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .footer {
     height: 868px;
     min-width: 320;
@@ -527,7 +527,7 @@ html {
   margin-bottom: 36px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .head__learn-more-btn {
     width: 100%;
   }
@@ -790,7 +790,7 @@ html {
   position: relative;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .features {
     display: none;
   }
@@ -901,27 +901,64 @@ html {
     display: none;
   }
 }
-* {
-  box-sizing: border-box;
+.tips {
+  margin-top: 8px;
 }
 
-html {
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+.tip {
+  padding: 40px 15px 0 15px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.tip__subtitel {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: #009b4d;
+}
+
+.tip__titel {
+  margin: 0;
+  margin-top: 17px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
   color: #2b292d;
 }
 
-.page {
-  overflow: hidden;
+.tip__discription {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.tip__discription {
+  margin: 0;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.tip__image {
+  margin-top: 29px;
+}
+
+.tip__image-capture {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+  margin-top: 20px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1400px) {
-  .page {
-    width: 1400px;
-    margin: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  .tips {
+    display: none;
   }
 }
 .action-button {
@@ -949,7 +986,7 @@ html {
   background-color: #f4f5f7;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .order {
     height: 827px;
     min-width: 320px;
@@ -1159,7 +1196,7 @@ html {
   line-height: 34px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1401px) {
   .card {
     width: 290px;
     height: 300px;
