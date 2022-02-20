@@ -919,6 +919,11 @@ html {
   background-color: #f4f5f7;
 }
 
+@media screen and (max-width: 1400px) {
+  .order {
+    display: none;
+  }
+}
 .order__wrapper {
   display: flex;
   flex-wrap: wrap;
