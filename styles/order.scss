@@ -3,6 +3,11 @@
 }
 @media screen and (max-width: 1400px) {
   .order {
+    height: 827px;
+    min-width: 320px;
+    background-color: #f4f5f7;
+  }
+  .order_hide {
     display: none;
   }
 }
