@@ -1,11 +1,11 @@
+@import "common.scss";
 .order {
   background-color: #f4f5f7;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: $lg) {
   .order {
     height: 827px;
     min-width: 320px;
-    background-color: #f4f5f7;
   }
   .order_hide {
     display: none;
@@ -19,7 +19,7 @@
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__wrapper {
     padding: 73px 0 72px;
     max-width: 1400px;
@@ -32,12 +32,12 @@
   min-width: 200px;
   max-width: 400px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__img {
     margin-right: 121px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__content {
     display: flex;
     align-items: flex-start;
@@ -60,7 +60,7 @@
   font-size: 22px;
   line-height: 32px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__form {
     display: flex;
     align-items: center;
@@ -78,7 +78,7 @@
   text-align: center;
   line-height: 13px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__input {
     margin-top: 0;
     width: 385px;
@@ -87,7 +87,7 @@
 .order__button {
   margin-top: 12px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: $sm) {
   .order__button {
     margin-top: 0;
     margin-left: 10px;
